@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+
+*{
+    margin: 0;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-color: rgb(49, 49, 49);
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container{
+    /* padding-top: 30px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 65px; */
+    padding-top: 30px; /* This is already correct */
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    /* Add additional margin-top to ensure the padding works as expected */
+    margin-top: -49px; 
+
+
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    left: -10%;
+}
+
+iframe{
+    background-color: aliceblue;
+    width: 191%;
+    height: 466px;
+    position: relative;
+    left: -43%;
+    outline: 2px solid black;
+}
+   
+
+
+
+.left textarea{
+  width: 509px;
+  height: 137px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  resize: none;
+  overflow: auto;
+}
+
+.left label{
+    color: white;
+    background-color: black;
+}
+.right{ 
+    height: 100%;
+}
+
+
+
+.common-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
