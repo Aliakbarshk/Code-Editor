@@ -23,7 +23,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 65px; */
-    padding-top: 30px; /* This is already correct */
+    padding-top: 128px; /* This is already correct */
     display: flex; 
     flex-direction: row;
     justify-content: center;
